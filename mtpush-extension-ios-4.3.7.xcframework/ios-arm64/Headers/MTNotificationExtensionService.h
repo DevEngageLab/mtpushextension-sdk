@@ -4,7 +4,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define MTE_EXTENSION_VERSION_NUMBER 4.3.6
+#define MTE_EXTENSION_VERSION_NUMBER 4.3.7
 
 @class UNNotificationRequest;
 
