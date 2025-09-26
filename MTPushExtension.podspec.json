@@ -1,6 +1,6 @@
 {
   "name": "MTPushExtension",
-  "version": "4.3.7",
+  "version": "4.3.8",
   "summary": "Offically supported MTPush Extension iOS SDK Pod. ",
   "description": "Offically supported MTPush iOS SDK Pod. ",
   "homepage": "https://www.engagelab.com/",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/DevEngageLab/mtpushextension-sdk.git",
-    "tag": "4.3.7"
+    "tag": "4.3.8"
   },
   "vendored_frameworks": "*.xcframework",
   "frameworks": [

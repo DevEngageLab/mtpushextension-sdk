@@ -4,7 +4,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define MTE_EXTENSION_VERSION_NUMBER 4.3.7
+#define MTE_EXTENSION_VERSION_NUMBER 4.3.8
 
 @class UNNotificationRequest;
 
@@ -50,6 +50,13 @@
  建议发布时关闭以减少不必要的IO
  */
 + (void)setLogOff;
+
+/*!
+ * @abstract 允许SDK是否使用UDP，默认是允许
+ * @param enableUdp 允许使用UDP传YES, 不允许使用UDP传NO
+ * @discussion 此接口必须要在 mtpushReceiveNotificationRequest 方法调用前进行设置
+ */
++ (void)setEnableUdp:(BOOL)enableUdp;
 
 
 @end
